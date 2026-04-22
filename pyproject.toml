@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "programming-machine"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
@@ -26,7 +26,7 @@ dependencies = [
 programming-machine = "programming_machine.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/programming-machine/programming-machine"
+"Homepage" = "https://github.com/planning-machine/programming-machine"
 
 [dependency-groups]
 dev = ["pytest>=8.0.0"]
